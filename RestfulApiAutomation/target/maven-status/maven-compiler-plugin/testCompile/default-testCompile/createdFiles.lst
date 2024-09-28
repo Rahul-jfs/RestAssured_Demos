@@ -1,0 +1,10 @@
+com\automation\runner\TestRunner.class
+com\automation\steps\Hooks.class
+com\automation\utils\RestAssuredUtils.class
+com\automation\steps\ResponseSteps.class
+com\automation\pojo\CreateObjectPojo.class
+com\automation\pojo\ResponseObjectPojo.class
+com\automation\pojo\CreateResourcePojo.class
+com\automation\utils\ConfigReader.class
+com\automation\pojo\DataPojo.class
+com\automation\steps\RequestSteps.class
