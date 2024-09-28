@@ -1,0 +1,11 @@
+com\automation\pojo\BookingDates.class
+com\automation\runner\TestRunner.class
+com\automation\steps\Hooks.class
+com\automation\utils\RestAssuredUtils.class
+com\automation\demo\RestDemo.class
+com\automation\demo\SerializationExample.class
+com\automation\steps\ResponseStep.class
+com\automation\utils\ConfigReader.class
+com\automation\pojo\CreateBookingPojo.class
+com\automation\pojo\TokenBody.class
+com\automation\steps\RequestSteps.class

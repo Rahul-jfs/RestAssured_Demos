@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.automation.runner.TestRunner" time="13.854" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\ZRestAssured\RestAssuredCucumber\target\test-classes;C:\ZRestAssured\RestAssuredCucumber\target\classes;C:\Users\280707\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\280707\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\280707\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\280707\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\280707\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\280707\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\280707\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\280707\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\280707\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\280707\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\280707\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\280707\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\280707\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\280707\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\280707\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\280707\.m2\repository\io\cucumber\cucumber-java\7.18.1\cucumber-java-7.18.1.jar;C:\Users\280707\.m2\repository\io\cucumber\cucumber-core\7.18.1\cucumber-core-7.18.1.jar;C:\Users\280707\.m2\repository\io\cucumber\cucumber-gherkin\7.18.1\cucumber-gherkin-7.18.1.jar;C:\Users\280707\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.1\cucumber-gherkin-messages-7.18.1.jar;C:\Users\280707\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\280707\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\280707\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\280707\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\280707\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\280707\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\280707\.m2\repository\io\cucumber\datatable\7.18.1\datatable-7.18.1.jar;C:\Users\280707\.m2\repository\io\cucumber\cucumber-plugin\7.18.1\cucumber-plugin-7.18.1.jar;C:\Users\280707\.m2\repository\io\cucumber\docstring\7.18.1\docstring-7.18.1.jar;C:\Users\280707\.m2\repository\io\cucumber\html-formatter\21.4.1\html-formatter-21.4.1.jar;C:\Users\280707\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\280707\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\280707\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\280707\.m2\repository\io\cucumber\cucumber-junit\7.18.1\cucumber-junit-7.18.1.jar;C:\Users\280707\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\280707\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\280707\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\280707\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\280707\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\280707\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\jdk-17_windows-x64_bin\jdk-17.0.12\bin"/>
+    <property name="sun.java.command" value="C:\Users\280707\AppData\Local\Temp\surefire7444830859157173819\surefirebooter-20240801173307126_3.jar C:\Users\280707\AppData\Local\Temp\surefire7444830859157173819 2024-08-01T17-33-06_889-jvmRun1 surefire-20240801173307126_1tmp surefire_0-20240801173307126_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\ZRestAssured\RestAssuredCucumber\target\test-classes;C:\ZRestAssured\RestAssuredCucumber\target\classes;C:\Users\280707\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\280707\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\280707\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\280707\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\280707\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\280707\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\280707\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\280707\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\280707\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\280707\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\280707\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\280707\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\280707\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\280707\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\280707\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\280707\.m2\repository\io\cucumber\cucumber-java\7.18.1\cucumber-java-7.18.1.jar;C:\Users\280707\.m2\repository\io\cucumber\cucumber-core\7.18.1\cucumber-core-7.18.1.jar;C:\Users\280707\.m2\repository\io\cucumber\cucumber-gherkin\7.18.1\cucumber-gherkin-7.18.1.jar;C:\Users\280707\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.1\cucumber-gherkin-messages-7.18.1.jar;C:\Users\280707\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\280707\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\280707\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\280707\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\280707\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\280707\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\280707\.m2\repository\io\cucumber\datatable\7.18.1\datatable-7.18.1.jar;C:\Users\280707\.m2\repository\io\cucumber\cucumber-plugin\7.18.1\cucumber-plugin-7.18.1.jar;C:\Users\280707\.m2\repository\io\cucumber\docstring\7.18.1\docstring-7.18.1.jar;C:\Users\280707\.m2\repository\io\cucumber\html-formatter\21.4.1\html-formatter-21.4.1.jar;C:\Users\280707\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\280707\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\280707\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\280707\.m2\repository\io\cucumber\cucumber-junit\7.18.1\cucumber-junit-7.18.1.jar;C:\Users\280707\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\280707\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\280707\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\280707\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\280707\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\280707\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\280707"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\jdk-17_windows-x64_bin\jdk-17.0.12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\ZRestAssured\RestAssuredCucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\280707\AppData\Local\Temp\surefire7444830859157173819\surefirebooter-20240801173307126_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="280707"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\280707\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\280707\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.1.4"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\ZRestAssured\RestAssuredCucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\jdk-17_windows-x64_bin\jdk-17.0.12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Windows\CCM;C:\Windows\CCM;C:\Users\280707\AppData\Local\Microsoft\WindowsApps;C:\jdk-17_windows-x64_bin\jdk-17.0.12\bin;C:\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Git\cmd;C:\allure-2.30.0\allure-2.30.0\bin;C:\Users\280707\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Verify user can create booking" classname="Validate create booking end point" time="2.975">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Sally",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2013-02-23",
+        "checkout": "2014-10-23"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722513790&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=lie1%2F52jec%2FMdVMQsq%2BGrwTSi7terVKTACRcWQtBDgA%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722513790&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=lie1%2F52jec%2FMdVMQsq%2BGrwTSi7terVKTACRcWQtBDgA%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 198
+Etag: W/"c6-mFydHGzgyplD0LPE/fr+q1OWnVo"
+Date: Thu, 01 Aug 2024 12:03:10 GMT
+Via: 1.1 vegur
+
+{
+    "bookingid": 291,
+    "booking": {
+        "firstname": "Sally",
+        "lastname": "Brown",
+        "totalprice": 111,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2013-02-23",
+            "checkout": "2014-10-23"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="verify getting list of booking" classname="Validate get booking end point #1" time="1.315">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Sally",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2013-02-23",
+        "checkout": "2014-10-23"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722513792&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=kD%2BoOfa%2FR8L2b6o3a51aF2xlFFotV5gJPlDY1nzk7Y0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722513792&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=kD%2BoOfa%2FR8L2b6o3a51aF2xlFFotV5gJPlDY1nzk7Y0%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 3836
+Etag: W/"efc-708cYd0C7toB0muRAkO5doJH0OM"
+Date: Thu, 01 Aug 2024 12:03:12 GMT
+Via: 1.1 vegur
+
+[
+    {
+        "bookingid": 109
+    },
+    {
+        "bookingid": 76
+    },
+    {
+        "bookingid": 291
+    },
+    {
+        "bookingid": 24
+    },
+    {
+        "bookingid": 149
+    },
+    {
+        "bookingid": 14
+    },
+    {
+        "bookingid": 193
+    },
+    {
+        "bookingid": 213
+    },
+    {
+        "bookingid": 267
+    },
+    {
+        "bookingid": 117
+    },
+    {
+        "bookingid": 248
+    },
+    {
+        "bookingid": 144
+    },
+    {
+        "bookingid": 71
+    },
+    {
+        "bookingid": 63
+    },
+    {
+        "bookingid": 33
+    },
+    {
+        "bookingid": 16
+    },
+    {
+        "bookingid": 164
+    },
+    {
+        "bookingid": 50
+    },
+    {
+        "bookingid": 84
+    },
+    {
+        "bookingid": 23
+    },
+    {
+        "bookingid": 159
+    },
+    {
+        "bookingid": 275
+    },
+    {
+        "bookingid": 241
+    },
+    {
+        "bookingid": 79
+    },
+    {
+        "bookingid": 227
+    },
+    {
+        "bookingid": 113
+    },
+    {
+        "bookingid": 78
+    },
+    {
+        "bookingid": 100
+    },
+    {
+        "bookingid": 135
+    },
+    {
+        "bookingid": 182
+    },
+    {
+        "bookingid": 34
+    },
+    {
+        "bookingid": 200
+    },
+    {
+        "bookingid": 211
+    },
+    {
+        "bookingid": 126
+    },
+    {
+        "bookingid": 103
+    },
+    {
+        "bookingid": 32
+    },
+    {
+        "bookingid": 91
+    },
+    {
+        "bookingid": 131
+    },
+    {
+        "bookingid": 266
+    },
+    {
+        "bookingid": 56
+    },
+    {
+        "bookingid": 230
+    },
+    {
+        "bookingid": 279
+    },
+    {
+        "bookingid": 101
+    },
+    {
+        "bookingid": 51
+    },
+    {
+        "bookingid": 272
+    },
+    {
+        "bookingid": 157
+    },
+    {
+        "bookingid": 41
+    },
+    {
+        "bookingid": 40
+    },
+    {
+        "bookingid": 231
+    },
+    {
+        "bookingid": 239
+    },
+    {
+        "bookingid": 154
+    },
+    {
+        "bookingid": 261
+    },
+    {
+        "bookingid": 102
+    },
+    {
+        "bookingid": 81
+    },
+    {
+        "bookingid": 203
+    },
+    {
+        "bookingid": 212
+    },
+    {
+        "bookingid": 49
+    },
+    {
+        "bookingid": 17
+    },
+    {
+        "bookingid": 27
+    },
+    {
+        "bookingid": 205
+    },
+    {
+        "bookingid": 53
+    },
+    {
+        "bookingid": 118
+    },
+    {
+        "bookingid": 2
+    },
+    {
+        "bookingid": 177
+    },
+    {
+        "bookingid": 274
+    },
+    {
+        "bookingid": 191
+    },
+    {
+        "bookingid": 225
+    },
+    {
+        "bookingid": 299
+    },
+    {
+        "bookingid": 11
+    },
+    {
+        "bookingid": 297
+    },
+    {
+        "bookingid": 280
+    },
+    {
+        "bookingid": 268
+    },
+    {
+        "bookingid": 140
+    },
+    {
+        "bookingid": 202
+    },
+    {
+        "bookingid": 45
+    },
+    {
+        "bookingid": 206
+    },
+    {
+        "bookingid": 253
+    },
+    {
+        "bookingid": 217
+    },
+    {
+        "bookingid": 58
+    },
+    {
+        "bookingid": 80
+    },
+    {
+        "bookingid": 163
+    },
+    {
+        "bookingid": 68
+    },
+    {
+        "bookingid": 235
+    },
+    {
+        "bookingid": 243
+    },
+    {
+        "bookingid": 128
+    },
+    {
+        "bookingid": 173
+    },
+    {
+        "bookingid": 3
+    },
+    {
+        "bookingid": 185
+    },
+    {
+        "bookingid": 95
+    },
+    {
+        "bookingid": 186
+    },
+    {
+        "bookingid": 7
+    },
+    {
+        "bookingid": 224
+    },
+    {
+        "bookingid": 115
+    },
+    {
+        "bookingid": 145
+    },
+    {
+        "bookingid": 28
+    },
+    {
+        "bookingid": 35
+    },
+    {
+        "bookingid": 130
+    },
+    {
+        "bookingid": 139
+    },
+    {
+        "bookingid": 60
+    },
+    {
+        "bookingid": 97
+    },
+    {
+        "bookingid": 166
+    },
+    {
+        "bookingid": 289
+    },
+    {
+        "bookingid": 15
+    },
+    {
+        "bookingid": 52
+    },
+    {
+        "bookingid": 136
+    },
+    {
+        "bookingid": 143
+    },
+    {
+        "bookingid": 8
+    },
+    {
+        "bookingid": 134
+    },
+    {
+        "bookingid": 9
+    },
+    {
+        "bookingid": 292
+    },
+    {
+        "bookingid": 198
+    },
+    {
+        "bookingid": 150
+    },
+    {
+        "bookingid": 271
+    },
+    {
+        "bookingid": 46
+    },
+    {
+        "bookingid": 263
+    },
+    {
+        "bookingid": 183
+    },
+    {
+        "bookingid": 151
+    },
+    {
+        "bookingid": 62
+    },
+    {
+        "bookingid": 247
+    },
+    {
+        "bookingid": 43
+    },
+    {
+        "bookingid": 19
+    },
+    {
+        "bookingid": 190
+    },
+    {
+        "bookingid": 259
+    },
+    {
+        "bookingid": 30
+    },
+    {
+        "bookingid": 67
+    },
+    {
+        "bookingid": 22
+    },
+    {
+        "bookingid": 116
+    },
+    {
+        "bookingid": 208
+    },
+    {
+        "bookingid": 106
+    },
+    {
+        "bookingid": 169
+    },
+    {
+        "bookingid": 6
+    },
+    {
+        "bookingid": 112
+    },
+    {
+        "bookingid": 219
+    },
+    {
+        "bookingid": 64
+    },
+    {
+        "bookingid": 142
+    },
+    {
+        "bookingid": 42
+    },
+    {
+        "bookingid": 47
+    },
+    {
+        "bookingid": 148
+    },
+    {
+        "bookingid": 287
+    },
+    {
+        "bookingid": 125
+    },
+    {
+        "bookingid": 218
+    },
+    {
+        "bookingid": 176
+    },
+    {
+        "bookingid": 5
+    },
+    {
+        "bookingid": 273
+    },
+    {
+        "bookingid": 26
+    },
+    {
+        "bookingid": 242
+    },
+    {
+        "bookingid": 133
+    },
+    {
+        "bookingid": 152
+    },
+    {
+        "bookingid": 254
+    },
+    {
+        "bookingid": 89
+    },
+    {
+        "bookingid": 59
+    },
+    {
+        "bookingid": 187
+    },
+    {
+        "bookingid": 18
+    },
+    {
+        "bookingid": 223
+    },
+    {
+        "bookingid": 245
+    },
+    {
+        "bookingid": 296
+    },
+    {
+        "bookingid": 20
+    },
+    {
+        "bookingid": 175
+    },
+    {
+        "bookingid": 94
+    },
+    {
+        "bookingid": 4
+    },
+    {
+        "bookingid": 31
+    },
+    {
+        "bookingid": 13
+    },
+    {
+        "bookingid": 170
+    },
+    {
+        "bookingid": 108
+    },
+    {
+        "bookingid": 290
+    },
+    {
+        "bookingid": 300
+    },
+    {
+        "bookingid": 228
+    },
+    {
+        "bookingid": 236
+    },
+    {
+        "bookingid": 12
+    },
+    {
+        "bookingid": 111
+    },
+    {
+        "bookingid": 165
+    },
+    {
+        "bookingid": 197
+    },
+    {
+        "bookingid": 92
+    },
+    {
+        "bookingid": 276
+    },
+    {
+        "bookingid": 85
+    },
+    {
+        "bookingid": 282
+    },
+    {
+        "bookingid": 260
+    },
+    {
+        "bookingid": 29
+    },
+    {
+        "bookingid": 72
+    },
+    {
+        "bookingid": 88
+    },
+    {
+        "bookingid": 38
+    },
+    {
+        "bookingid": 54
+    },
+    {
+        "bookingid": 61
+    },
+    {
+        "bookingid": 55
+    },
+    {
+        "bookingid": 189
+    },
+    {
+        "bookingid": 75
+    },
+    {
+        "bookingid": 160
+    },
+    {
+        "bookingid": 123
+    },
+    {
+        "bookingid": 207
+    },
+    {
+        "bookingid": 1
+    },
+    {
+        "bookingid": 214
+    },
+    {
+        "bookingid": 48
+    },
+    {
+        "bookingid": 232
+    },
+    {
+        "bookingid": 74
+    },
+    {
+        "bookingid": 25
+    },
+    {
+        "bookingid": 283
+    },
+    {
+        "bookingid": 96
+    },
+    {
+        "bookingid": 122
+    },
+    {
+        "bookingid": 293
+    },
+    {
+        "bookingid": 221
+    },
+    {
+        "bookingid": 180
+    },
+    {
+        "bookingid": 237
+    },
+    {
+        "bookingid": 255
+    },
+    {
+        "bookingid": 178
+    },
+    {
+        "bookingid": 158
+    },
+    {
+        "bookingid": 265
+    },
+    {
+        "bookingid": 251
+    },
+    {
+        "bookingid": 107
+    },
+    {
+        "bookingid": 195
+    },
+    {
+        "bookingid": 286
+    },
+    {
+        "bookingid": 192
+    },
+    {
+        "bookingid": 172
+    },
+    {
+        "bookingid": 121
+    },
+    {
+        "bookingid": 86
+    },
+    {
+        "bookingid": 10
+    },
+    {
+        "bookingid": 249
+    },
+    {
+        "bookingid": 257
+    },
+    {
+        "bookingid": 281
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="Verify token is not generated when invalid credentials entered #1" classname="Token generation validation" time="1.665">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "abc",
+    "password": "abs123"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722513793&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=ayyev4GMvdcYysA4NdtIV%2BHCnQYUH9XycVZO2B2Pt1k%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722513793&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=ayyev4GMvdcYysA4NdtIV%2BHCnQYUH9XycVZO2B2Pt1k%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 28
+Etag: W/"1c-J3EiwfZwVQjKTKvpvazUfTni8fI"
+Date: Thu, 01 Aug 2024 12:03:13 GMT
+Via: 1.1 vegur
+
+{
+    "reason": "Bad credentials"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify token is not generated when invalid credentials entered #2" classname="Token generation validation" time="1.199">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "ADMIN",
+    "password": "123213"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722513794&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vPaLRABqGo%2B0LDcbKdo4EXXtfxeLS5qNKYgnxJg8GoE%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722513794&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vPaLRABqGo%2B0LDcbKdo4EXXtfxeLS5qNKYgnxJg8GoE%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 28
+Etag: W/"1c-J3EiwfZwVQjKTKvpvazUfTni8fI"
+Date: Thu, 01 Aug 2024 12:03:15 GMT
+Via: 1.1 vegur
+
+{
+    "reason": "Bad credentials"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify token is not generated when invalid credentials entered #3" classname="Token generation validation" time="1.284">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "qqq",
+    "password": "1211"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722513796&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=MkbG9YozSTx%2FrfedWF9NX1Mwxk2OKg8wabr0e3P1OjQ%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722513796&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=MkbG9YozSTx%2FrfedWF9NX1Mwxk2OKg8wabr0e3P1OjQ%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 28
+Etag: W/"1c-J3EiwfZwVQjKTKvpvazUfTni8fI"
+Date: Thu, 01 Aug 2024 12:03:16 GMT
+Via: 1.1 vegur
+
+{
+    "reason": "Bad credentials"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify token is not generated when invalid credentials entered #4" classname="Token generation validation" time="1.197">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "adMIN",
+    "password": "1111"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722513797&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=%2FamOooy%2Ff%2FfPnpwUzrnNlBpsv5Uhsq2NCO9z5h9Qous%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722513797&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=%2FamOooy%2Ff%2FfPnpwUzrnNlBpsv5Uhsq2NCO9z5h9Qous%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 28
+Etag: W/"1c-J3EiwfZwVQjKTKvpvazUfTni8fI"
+Date: Thu, 01 Aug 2024 12:03:17 GMT
+Via: 1.1 vegur
+
+{
+    "reason": "Bad credentials"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify user can create booking" classname="Validate get booking end point #2" time="3.479">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Sally",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2013-02-23",
+        "checkout": "2014-10-23"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722513798&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=L3ewu%2BsQFM00L9%2BEWcku%2BbYQCT3Lk74mj4DAAkgagVA%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722513798&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=L3ewu%2BsQFM00L9%2BEWcku%2BbYQCT3Lk74mj4DAAkgagVA%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 198
+Etag: W/"c6-SctFOOhlf5TFXRWCRSnPK9tiwWc"
+Date: Thu, 01 Aug 2024 12:03:18 GMT
+Via: 1.1 vegur
+
+{
+    "bookingid": 361,
+    "booking": {
+        "firstname": "Sally",
+        "lastname": "Brown",
+        "totalprice": 111,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2013-02-23",
+            "checkout": "2014-10-23"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722513799&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=5HHvkWmlaRIFcFzwI%2BAK639kbd%2BRckr1uHxByT%2BXSno%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722513799&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=5HHvkWmlaRIFcFzwI%2BAK639kbd%2BRckr1uHxByT%2BXSno%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-mwv7OFk2yG4LEpspjZF0MqcNauk"
+Date: Thu, 01 Aug 2024 12:03:19 GMT
+Via: 1.1 vegur
+
+{
+    "token": "424dc2b33e8b6f9"
+}
+Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/361
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Cookie=token=424dc2b33e8b6f9
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Sally",
+    "lastname": "Brown",
+    "totalprice": 558,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2013-02-23",
+        "checkout": "2014-10-23"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722513800&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=hh9AiPc4RVxxzOQyN6vNTj01%2Bks0l7c6cSefYbA%2FYp0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722513800&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=hh9AiPc4RVxxzOQyN6vNTj01%2Bks0l7c6cSefYbA%2FYp0%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 170
+Etag: W/"aa-3ONCYjCPIDbPq7Xpp89EU1DBibQ"
+Date: Thu, 01 Aug 2024 12:03:20 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Sally",
+    "lastname": "Brown",
+    "totalprice": 558,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2013-02-23",
+        "checkout": "2014-10-23"
+    },
+    "additionalneeds": "Breakfast"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
